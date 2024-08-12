@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('./styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir1';
+    src: url('../../styles/fonts/ttf/Vazirmatn-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+@font-face {
+    font-family: 'Vazir2';
+    src: url('../../styles/fonts/ttf/Vazirmatn-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero{
+ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: right;
+    margin-top:2.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero_container{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+
+
+.hero_text{
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: right;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Vazir1'; 
+    line-height: 3rem;
+} 
+
+.hero_text_span{
+    color: rgb(100, 100, 250);
+}
+
+
+.hero_text_1{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+.hero_text_2{
+    display: flex;
+    gap: 1rem;
+    text-align: left;
+    justify-content: right;
+}
+
+
+.hero_text_span1{
+    justify-content: space-between;
+
+}
+
+.hero_text_3{
+    direction: rtl;
+}
+
+.hero_img{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and 
+(max-width: 775px) { 
+    .hero_img{
+        display: none;
+    }
+
+    .hero_text{
+        display: flex;
+        font-family: 'Vazir2';
+        margin-top: 0;
+        font-size: 1.6rem;
+        width: 95%;
+        justify-content: right;
+        line-height: 2rem;
+        margin: 0.5rem;
+        letter-spacing: 1px;
+      
+    }
+    .hero_container{
+        display: flex;
+        justify-content: right;
+        width: 95%;
+        margin-top: 2rem;
+    }
+}
+
+
+
+@media screen and (min-width: 775px) and 
+(max-width: 996px) {
+    .hero_img{
+        display: none;
+    }
+
+    .hero_text{
+        display: flex;
+        font-family: 'Vazir2';
+        margin-top: 0;
+        font-size: 1.6rem;
+        width: 90%;
+        justify-content: right;
+        line-height: 2rem;
+        margin: 0.5rem;
+    }
+    .hero_container{
+        display: flex;
+        justify-content: right;
+        width: 750px;
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 996px) and 
+(max-width: 1200px)  { 
+    .hero_container{
+        display: flex;
+        justify-content: space-between;
+        width: 920px;
+    }
+}
+
+

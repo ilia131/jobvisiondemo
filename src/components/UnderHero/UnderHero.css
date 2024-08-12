@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Vazir2';
+    src: url('../../styles/fonts/ttf/Vazirmatn-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+
+.underhero{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.underhero-container{
+    width: 1150px;
+   
+}
+
+
+
+
+
+
+.underhero-text{
+   font-family: 'Vazir2';
+   font-weight: 600;
+   text-align: right;
+   font-size: 1.2rem;
+}
+
+.underhero-input{
+    display: flex;
+    gap:1rem;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.input-3{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    width: 40%; 
+    height: 2.3rem;
+    gap: 0.5rem;
+} 
+
+.input-3 > input{
+    width: 92%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: right;
+    font-size: 0.9rem;
+    font-family: 'Vazir';
+}
+
+.input-2{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    width: 20%; 
+    height: 2.3rem;
+    gap: 0.5rem;
+}
+
+.input-2 > input{
+    width: 92%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: right;
+    font-size: 0.9rem;
+    font-family: 'Vazir';
+}
+
+
+.input-1{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    width: 20%; 
+    height: 2.3rem;
+    gap: 0.5rem;
+}
+
+.input-1 > input{
+    width: 92%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: right;
+    font-size: 0.9rem;
+    font-family: 'Vazir'
+}
+
+
+.underhero-btn{
+    font-family: 'Vazir2';
+    padding: 0 1rem 0 1rem;
+    border: none;
+    width: 100%; 
+    color: white;
+    font-weight: 800;
+    border-radius: 0.25rem;
+    height: 3rem;
+}
+
+.form-btn , .underhero-btn {
+    background-color: rgb(105, 105, 251);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+
+}
+
+
+
+.form-btn{
+    width: 13%;
+    display: flex;
+    background-color: rgb(105, 105, 251);
+    border-radius: 0.25rem;
+}
+
+.form-btn:hover , .underhero-btn:hover{
+    background-color: rgb(78, 78, 255);
+} 
+
+@media screen and (min-width: 320px) and 
+(max-width: 996px) { 
+    .underhero-text{
+        padding-right: 2%;
+    }
+
+    .underhero{
+       padding-left: 3%;
+       padding-right: 4%;
+    }
+
+
+
+    .underhero-input{
+        display: grid;
+        width: 100%;
+        gap:0.5rem;
+        box-sizing: border-box;
+    }
+
+    .input-3{
+        width: 95.5%;
+        padding-right: 0.5rem;
+    }
+    
+  
+
+
+    .input-2{
+        width: 95.5%;
+        padding-right: 0.5rem;
+    }
+    .input-1{
+        width: 95.5%;
+        padding-right: 0.5rem;
+    }
+   
+    .form-btn{
+        width: 95.6%;
+        display: inline-block;
+        border-radius: 0.25rem;
+        padding-left: 0.45rem;
+        padding-right: 0.45rem;
+        background-color: rgb(105, 105, 251);
+
+    }
+    
+    .underhero-btn:hover , .form-btn:hover{
+        background-color: rgb(78, 78, 255);
+        
+
+    } 
+    
+    .underhero-btn{
+        width: 100%  ;
+    }
+
+   
+} 
+
+
+@media screen and (min-width: 996px) and 
+(max-width: 1200px) {
+    .underhero-input{
+        display: flex;
+        width: 100%;
+        gap:0.8rem;
+        box-sizing: border-box;
+    }
+
+    .underhero{
+       padding-left: 1%;
+    }
+    .input-3{
+        width: 38%;
+        padding-right: 0.5rem;
+    }
+    .underhero-container{
+        width: 920px;
+
+    }
+  
+
+
+    .input-2{
+        width: 18%;
+        padding-right: 0.5rem;
+    }
+    .input-1{
+        width: 18%;
+        padding-right: 0.5rem;
+    }
+
+    .form-btn{
+        width:16%;
+        display: inline-block;
+        border-radius: 0.25rem;
+        padding-left: 0.45rem;
+        padding-right: 0.45rem;
+        background-color: rgb(105, 105, 251);
+        
+
+    }
+    
+    .underhero-btn:hover , .form-btn:hover{
+        background-color: rgb(78, 78, 255);
+        
+
+    } 
+    
+    .underhero-btn{
+        width: 100%  ;
+    }
+}

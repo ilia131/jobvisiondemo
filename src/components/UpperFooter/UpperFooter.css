@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Vazir2';
+    src: url('../../styles/fonts/ttf/Vazirmatn-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+
+
+.upperfooter-about{
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.upperfoote{
+    width: 100%;
+}
+
+.upperfooter{
+    width: 100%;
+}
+
+
+
+.upperfooter-text{
+    font-family: 'Vazir';
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.upperfooter-account{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    font-family: 'Vazir2';
+}
+
+.upperfooter-account p{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+
+
+
+
+.upperfooter-span{
+    font-size: 0.8rem;
+    color: rgb(69, 69, 69);
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.upperfooter-account button{
+    border: none;
+    font-family: 'Vazir';
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 12rem;
+    background-color: rgb(105, 105, 251);
+    color: white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.upperfooter-account button:hover{
+    background-color: rgb(78, 78, 255);
+}
+
+@media screen and (min-width: 320px) and 
+(max-width: 1200px) { 
+     .upperfoote{
+         width: 100%;
+        padding-left: 0.5rem;
+     }
+  
+}

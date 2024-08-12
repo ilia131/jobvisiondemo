@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir2';
+    src: url('../../styles/fonts/ttf/Vazirmatn-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+
+.footer{
+    padding-left: 13%;
+    padding-right: 13%;
+    background-color: #4a4e57;
+    font-family: 'Vazir';
+    text-align: right;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+
+.footer h2{
+   font-family: 'Vazir2';
+}
+
+
+.footer-card{
+    display: grid;
+    gap:0.5rem
+}
+
+.footer-discover{
+    width: 71rem;
+}
+
+.footer-discover p{
+    font-size: 0.9rem;
+}
+
+.icons-3{
+   padding-top: 0.5rem;
+   color: rgb(122, 122, 122);
+   font-size: 0.9rem;
+
+}
+
+
+.footer-more-text{
+    cursor: pointer;
+}
+
+
+
+.footer-discover-2{
+    display: flex;
+    width: 71rem;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.footer-discover-2-text{
+    display: flex;
+    gap:5rem;
+    padding: 2rem;
+}
+
+.footer-img{
+    margin-top:6rem
+}
+
+.h5x p{
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+
+@media screen and (min-width: 320px) and 
+(max-width: 850px) {
+    .footer{
+        padding: 1rem;
+    }
+    .footer-discover{
+        width: 96%;
+    }
+
+    .footer h2{
+        font-size: 1rem;
+    }
+
+    .footer p{
+        font-size: 0.8rem;
+    }
+
+    .footer-discover-2{
+        width: 90%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 0;
+    }
+
+    .footer-discover-2-text{
+        display: grid;
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width: 850px) and 
+(max-width: 1300px) {
+    .footer{
+        padding: 1rem;
+        display: grid;
+        justify-content: center;
+    }
+    
+    .footer-discover{
+        width: 99%;
+    }
+
+    .footer-discover-44{
+        justify-content: center;
+        display: flex;
+        
+    }
+
+    .footer h2{
+        font-size: 1rem;
+    }
+
+    .footer p{
+        font-size: 0.8rem;
+    }
+
+    .footer-discover-2{
+        display: flex;
+        width: 100%;
+        gap:30%
+    }
+
+    .footer-discover-2-text{
+        display: flex;
+        width: 95%;
+        gap:10%;
+    }
+}

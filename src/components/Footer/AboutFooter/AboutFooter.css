@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+.aboutfooter-2{
+   display: flex;
+   gap:1rem;
+   text-align: right;
+   align-items: right;
+   justify-content: right;
+   border: none;
+   padding: 0.5rem;
+   font-size: 0.85rem;
+   background-color: #646870;
+   border-radius: 1rem;
+   height: 2.5rem;
+   width: 98.5%;
+
+   cursor: pointer;
+}
+
+.aboutfooter-number{
+    border: solid 1px white;
+    border-radius: 100%;
+    padding: 0.3rem;
+    height: 0.7rem;
+    width: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+    margin-right: 0.5rem;
+
+}
+
+.openside{
+    text-align: right;
+    display: flex;
+    align-items: right;
+    justify-items: right;
+    justify-content: right;
+    width: 98.5%;
+    font-size: 0.85rem;
+    background-color: #646870;
+    padding: 0.5rem;
+    height: 2.5rem;
+    border-top: solid 2px white;
+    border-radius: 0 0 1rem 1rem;
+}
+
+
+.openside p{
+    margin-right: 2rem;
+}
+
+
+
+.aboutfooter-3{
+    display: flex;
+    gap:1rem;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    background-color: #646870;
+    border-radius: 1rem 1rem 0 0;
+    height: 2.5rem;
+    width: 98.5%;
+
+    cursor: pointer;
+ }
+
+.cmp-icons-2{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: rgb(122, 122, 122);
+  
+}
+
+
+.cmp-icons{
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 320px) and 
+(max-width: 850px) {
+    .aboutfooter-father{
+      width: 100%;
+    } 
+    .aboutfooter{ 
+        padding-right: 5%;
+    }
+
+    .aboutfooter-3{
+      padding-bottom: 2rem;
+    }
+    .aboutfooter-2{
+        padding-bottom: 2rem;
+    }
+    .openside{
+        text-align: right;
+        height: 5.5rem;
+        padding-bottom: 1rem;
+    } 
+}
+
+
+@media screen and (min-width: 850px) and 
+(max-width: 1200px) {
+    .aboutfooter-father{
+        width: 100%;
+    } 
+}

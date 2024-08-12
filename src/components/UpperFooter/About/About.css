@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Vazir2';
+    src: url('../../styles/fonts/ttf/Vazirmatn-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+
+
+.note{
+  width: 100%;
+}
+
+
+
+.upperfooter-text{
+    font-family: 'Vazir';
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.upperfooter-arrow{
+    display: flex;
+    justify-items: center;
+    font-family: 'Vazir';
+    border-bottom: solid 1px rgb(225, 225, 225);
+    align-items: center;
+    font-size: 0.87rem;
+    font-weight: 900;
+    padding: -0.2rem; 
+    width: 53rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.icons{
+    font-size: 0.85rem;
+    padding: 1.3rem 0rem 0rem 0.5rem;
+    display: flex;
+    color: rgb(91, 91, 91);
+}
+
+
+
+
+.note{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.open-arrow{
+    text-align: right;
+    font-size: 0.9rem;
+    font-family: 'Vazir';
+    display: flex;
+    align-items: right;
+    width: 53rem;
+    justify-content: center;
+    color: rgb(97, 97, 97);
+}
+
+
+
+@media screen and (min-width: 320px) and 
+(max-width: 1200px) { 
+   .note{
+        display: block;
+        text-align: right
+     }
+
+     .upperfooter-arrow{
+         width: 95%;
+         display: flex;
+         justify-content: space-between;
+         font-size: 0.7rem;
+         text-align: right;
+     } 
+
+     .open-arrow{
+        width: 95%;
+        font-size: 0.7rem;
+     }
+}

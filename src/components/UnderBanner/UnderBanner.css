@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+.underbanner{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: 'Vazir';
+    margin-bottom: 6rem;
+}
+
+
+
+.underbanner-box{
+    margin-top:4rem;
+    display: flex;
+    justify-content: space-between;;
+    height: 6rem;
+    
+}
+
+.text-4{
+    display: grid;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    justify-items: right;
+    gap:1rem;
+}
+
+.text-4 button{
+    height: 2rem;
+    font-family: 'Vazir';
+    border: solid 2px black;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 0.85rem;
+    padding: 0 0.6rem 0 0.6rem;
+    height: 2.5rem;
+}
+
+
+.text-span{
+    font-size: 0.8rem;
+    color: rgb(155, 155, 155);
+    font-weight: bold;
+}
+
+
+.underbanner-card-right{
+   display: flex;
+   gap:1rem;
+   -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.underbanner-card-left{
+    display: flex;
+    gap:1.5rem;
+}
+
+.text-5{
+    display: grid;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    justify-items: right;
+    gap:1rem;
+}
+
+.img-2{
+  margin-top: 1rem;
+}
+
+.text-5 button{
+    font-family: 'Vazir';
+    border: solid 2px black;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 0.85rem;
+    padding: 0 0.6rem 0 0.6rem;
+    height: 2.5rem;
+}
+
+
+
+@media screen and (min-width: 320px) and 
+(max-width: 776px) {
+    .underbanner{
+        margin-bottom: 40rem;
+    }
+
+
+    .underbanner-img{
+        display: none;
+    }
+
+    .underbanner-box{
+        display: grid;
+        align-items: center;
+        gap: 1.4rem;
+        margin: 0;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .underbanner-container{
+        display: grid;
+   
+        width: 100%;
+    }
+
+    .underbanner-card-right{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        gap:0.1rem;
+        width: 80%;
+    }
+
+    .text-4{
+        text-align: center;
+        justify-content: center;
+        display: grid;
+        justify-items: center;
+    }
+}
+
+@media screen and (min-width: 776px) and 
+(max-width: 1200px) { 
+    .underbanner-box{
+        width: 100%;
+    }
+    .underbanner-img{
+        display: none;
+    }
+
+    .underbanner-box{
+        display: flex;
+        gap:30%
+    }
+}

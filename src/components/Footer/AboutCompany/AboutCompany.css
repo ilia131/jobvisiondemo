@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+.aboutcmp{
+  
+  
+    width: 100%;
+
+}
+
+
+
+.cmp-card{
+    display: flex;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.cmp-1{
+    background-color: #646870;
+    height: 2.7rem;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.cmp-2{
+    background-color: #646870;
+    height: 2.7rem;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.cmp-3{
+    background-color: #646870;
+    height: 2.7rem;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and 
+(max-width: 1200px) {
+    .aboutcmp{
+        width:100%;
+    }
+    .cmp-card{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .cmp-1{
+        width: 95%;
+        font-size: 0.7rem;
+    }
+    .cmp-2{
+        width: 95%;
+        font-size: 0.7rem;
+    }
+    .cmp-3{
+        width: 95%;
+        font-size: 0.7rem;
+    }
+
+}

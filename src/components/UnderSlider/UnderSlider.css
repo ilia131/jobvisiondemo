@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Vazir1';
+    src: url('../../styles/fonts/ttf/Vazirmatn-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+@font-face {
+    font-family: 'Vazir2';
+    src: url('../../styles/fonts/ttf/Vazirmatn-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+
+
+
+
+
+
+
+
+
+.underslider{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.underslider-container{
+   width: 1150px;
+}
+
+
+
+.underslider-text{
+   font-family: 'Vazir2';
+   text-align: right;
+   font-weight: 800;
+   font-size: 1.17rem;
+}
+
+.underslider-icons{
+    font-family: 'Vazir';
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    justify-items: right;
+    gap:0.2rem;
+    color: rgb(84, 84, 253);
+    border-bottom: solid 1px rgb(197, 197, 197);
+   
+}
+
+.icons{
+    margin-bottom: 1.2rem;
+    
+ }
+
+
+.underslider-text-2{
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap:0.5rem;
+    border-bottom: solid 2px rgb(81, 81, 255);
+    font-weight: 800;
+    margin-bottom: -2px;
+    font-size: 0.9rem;
+    padding-left: 1.5rem;
+}
+
+.underslider-text-2 p{
+    padding-right: 0.5rem;
+    font-size: 0.9rem;
+}
+
+
+
+.text{
+    font-family: 'Vazir';
+    text-align: right;
+    color: rgb(170, 170, 170);
+    font-size: 0.9rem;
+}
+
+.card-array{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+}
+
+.underslider-btn {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+}
+
+
+
+
+
+
+
+.underslider-btn button{
+    font-family: 'Vazir';
+    display: flex;
+    justify-items: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+    border: solid 2px black;
+    border-radius: 0.25rem;
+    height: 2.3rem;
+    width: 9rem;
+}
+
+
+
+
+@media screen and (min-width: 320px) and 
+(max-width: 572px) { 
+    .underslider{
+        width: 100%;
+    }
+
+    .underslider-container{
+        width: 90%;
+    }
+
+
+    .card-array{
+        display: grid;
+        grid-template-columns: repeat(1 , 6fr);
+    }
+}
+
+
+
+@media screen and (min-width: 572px) and 
+(max-width: 776px) { 
+    .underslider{
+        width: 100%;
+    }
+
+    .underslider-container{
+        width: 75%;
+    }
+
+
+    .card-array{
+        display: grid;
+        grid-template-columns: repeat(1 , 6fr);
+    }
+}
+
+@media screen and (min-width: 776px) and 
+(max-width: 990px) {
+    .underslider{
+        width: 100%;
+    }
+
+    .underslider-container{
+        width: 80%;
+    }
+
+
+    .card-array{
+        display: grid;
+        grid-template-columns: repeat(1 , 6fr);
+    }
+}
+
+
+
+
+@media screen and (min-width: 978px) and 
+(max-width: 1196px) { 
+    .underslider{
+        width: 100%;
+    }
+
+    .underslider-container{
+        width: 90%;
+    }
+
+}

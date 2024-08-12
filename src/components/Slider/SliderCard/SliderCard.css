@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.sliderCard{
+    width: 100%;
+}
+
+
+.sliderCard-container{
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(209, 208, 208);
+    width: 85%;
+    border-radius: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+.sliderCard-box{
+  
+    display: grid;
+    justify-content: right;
+    align-items: right;
+    justify-items: right;
+   
+    padding: 0.89rem;
+    font-family: 'Vazir';
+  
+}
+
+.sliderCard-box-box{
+    display: grid;
+    transition: all .3 ease-in;
+    padding-bottom: 1rem; 
+    grid-template-rows: repeat(2, 1fr);
+    height: 11rem;
+    justify-content: center;
+    gap:1rem
+}
+
+.sliderCard-box-img{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    justify-items: right;
+}
+
+
+.sliderCard-box-text{
+    text-align: right;
+}
+
+.sliderCard-btn{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    width: 100%;
+}
+
+
+
+.sliderCard-btn button{
+    font-family: 'Vazir';
+    border: none;
+    font-weight: 800;
+    background-color: rgb(222, 222, 222);
+    border-radius: 0.25rem;
+    height: 2rem;
+    width: 100%;
+    cursor: pointer;
+  
+}
+
+
+.sliderCard-box-span{
+    direction: ltr;
+}
+
+
+
+
+.sliderCard-box-span{
+   display: flex;
+   justify-content: right;
+   align-items: center;
+   font-size: 1rem;
+   gap:0.2rem;
+}
+
+.sliderCard-box-span-icons{
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+    color: yellow;
+}
+
+.sliderCard-box-span-2{
+    font-size: 0.7rem;
+    display: flex;
+    gap:0.2rem;
+    align-items: center;
+    color: rgb(87, 87, 255);
+}
+
+.sliderCard-box-span-3{
+    font-weight: 800;
+}
+
+.sliderCard-box-span-2{
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    direction: rtl;
+ }
+
+
+@media screen and (min-width: 320px) and 
+(max-width: 340px) { 
+    .sliderCard{
+     width: 100%;
+     margin-left: -6%;
+     
+    }
+
+    .sliderCard-container{
+        width: 100%;  
+        display: grid;
+        height: 17rem;
+    }
+    .sliderCard-box{
+      width: 100%;  
+      display: grid;
+      justify-content: center;
+    }
+    .sliderCard-btn button{
+      width: 100%;
+      
+    } 
+    .sliderCard-box-box{
+        padding-right: 1rem;
+    }
+   
+
+    .sliderCard-btn{
+     align-items: center;
+     justify-content: center;
+     justify-items: center;
+     display: flex; 
+     width: 100%;
+     
+    }
+
+    .sliderCard-box-span-2{
+       font-size: 0.7rem;
+       flex-wrap: wrap;
+       direction: rtl;
+    }
+}
+
+@media screen and (min-width: 340px) and 
+(max-width: 524px) {
+    .sliderCard{
+        width: 100%; 
+        margin-left: -30%; 
+       }
+    .sliderCard-container{
+        width: 300%;  
+        display: grid;
+        height: 16rem;
+         
+    }
+    .sliderCard-box{
+      width: 100%;  
+      display: grid;
+      justify-content: center;
+    }
+    .sliderCard-btn button{
+      width: 100%;
+      
+    } 
+    
+   
+
+    .sliderCard-btn{
+     align-items: center;
+     justify-content: center;
+     justify-items: center;
+     display: flex; 
+     width: 100%;
+     
+    }
+
+    .sliderCard-box-span-2{
+       font-size: 0.7rem;
+       flex-wrap: wrap;
+       direction: rtl;
+    }
+}
+
+
+
+@media screen and (min-width: 524px) and 
+(max-width: 776px) {
+
+       .sliderCard-container{
+        width: 90%;  
+        display: grid;
+        height: 16rem;
+         
+    }
+}
+
+
+@media screen and (min-width: 776px) and 
+(max-width: 900px) {
+    .sliderCard{
+        width:63%;
+        margin-left: -5% auto;
+      
+       }
+     .sliderCard-container{
+        width: auto;
+     }
+}
+
+
+@media screen and (min-width: 900px) and 
+(max-width: 1200px) { 
+    .sliderCard{
+        width:50%;
+        margin-left: -5% auto;
+      
+       }
+     .sliderCard-container{
+        width: auto;
+     }
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('./styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir1';
+    src: url('../../styles/fonts/ttf/Vazirmatn-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+@font-face {
+    font-family: 'Vazir2';
+    src: url('../../styles/fonts/ttf/Vazirmatn-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+
+}
+
+
+
+
+.body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Vazir';
+    font-family: 'Vazir2';
+    font-family: 'Vazir1';
+}
